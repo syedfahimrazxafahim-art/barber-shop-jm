@@ -1,0 +1,6 @@
+{
+  "name": "Barber Shop J.M.",
+  "description": "Classic American barbershop in Brooklyn, New York. Professional haircuts, skin fades, beard grooming, and hot towel shaves open 7 days a week from 9:00 AM to 10:00 PM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

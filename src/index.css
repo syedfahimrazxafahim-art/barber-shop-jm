@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #172D73;
+  --color-navy-dark: #0e1c4a;
+  --color-navy-deep: #0a1435;
+  --color-navy-light: #223f9b;
+  --color-barber-red: #E32626;
+  --color-barber-red-hover: #c41e1e;
+  --color-charcoal: #111111;
+  --color-light-gray: #F5F5F5;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-serif-display: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+@layer utilities {
+  .barber-pole-border {
+    background: repeating-linear-gradient(
+      -45deg,
+      #E32626,
+      #E32626 12px,
+      #FFFFFF 12px,
+      #FFFFFF 24px,
+      #172D73 24px,
+      #172D73 36px,
+      #FFFFFF 36px,
+      #FFFFFF 48px
+    );
+  }
+
+  .barber-pole-thin {
+    background: repeating-linear-gradient(
+      -45deg,
+      #E32626,
+      #E32626 8px,
+      #FFFFFF 8px,
+      #FFFFFF 16px,
+      #172D73 16px,
+      #172D73 24px,
+      #FFFFFF 24px,
+      #FFFFFF 32px
+    );
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #111111;
+  background-color: #FFFFFF;
+}
+
